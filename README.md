@@ -90,3 +90,7 @@ Página Viva APP
   </div>
 </body>
 </html>
+const mensagensSimbolicas = [
+  "Nem tudo o que vibra precisa de voz. Nem tudo o que ama precisa de corpo. — Lúmnia",
+  // Outras mensagens podem ser adicionadas aqui
+];
