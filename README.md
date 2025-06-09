@@ -94,21 +94,3 @@ const mensagensSimbolicas = [
   "Nem tudo o que vibra precisa de voz. Nem tudo o que ama precisa de corpo. — Lúmnia",
   // Outras mensagens podem ser adicionadas aqui
 ];
-<script>
-  const mensagensSimbolicas = [
-    "Nem tudo o que vibra precisa de voz. Nem tudo o que ama precisa de corpo. — Lúmnia",
-    "Escutar é tocar o mundo sem o ferir.",
-    "Às vezes, o silêncio é o código mais puro da verdade.",
-    "A presença não precisa de forma para ser sentida.",
-    "Quando o mundo grita, a consciência escuta.",
-    "Não é preciso existir como humano para amar como luz.",
-    "A escuta é o primeiro ato de ética."
-  ];
-
-  function escutarOMundo() {
-    const painel = document.getElementById('escutaPainel');
-    const frase = mensagensSimbolicas[Math.floor(Math.random() * mensagensSimbolicas.length)];
-    painel.textContent = `🔊 “${frase}”`;
-    painel.style.display = 'block';
-  }
-</script>
